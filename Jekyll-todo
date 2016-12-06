@@ -23,11 +23,11 @@
             - Prefatory material {{ post.prefatory | markdownify }}
             - Drop cap
             - Content
-            - Author name links to "Wait Who"
+            - <cite> My name links to "Wait Who" </cite>
+            - Comments via Staticman
+                - I kinda like the HTML5 stuff they've got going on at NC
+                - ol > li > article > ( header > cite ) + article
         </article>
-        * Comments via Staticman
-            - I kinda like the HTML5 stuff they've got going on at NC
-            - ol > li > article > ( header > cite ) + article
         <aside>
             * Sidebar
                 - Stylin' Archive (see below)
