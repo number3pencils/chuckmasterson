@@ -21,7 +21,7 @@
             - Title
             - Subtitle
             - Prefatory material {{ post.prefatory | markdownify }}
-            - Drop cap
+            - Drop cap (see below)
             - Content
             - <cite> My name links to "Wait Who" </cite>
             - Comments via Staticman
@@ -49,6 +49,13 @@
 Elsewhere: jekyll-feed
 
 
+Drop caps
+```
+.post-body p:first-child:first-letter,
+.post-body p.prefatory + p:first-letter 
+{ font-size: 72px; font-family: Fanwood; line-height: 72px; float: left; }
+.post-body p.prefatory:first-letter { font-size: inherit; font-family: inherit; line-height: inherit; float: none; }
+```
 
 The stylin' archive
 ```
