@@ -27,6 +27,7 @@
             - Comments via Staticman
                 - I kinda like the HTML5 stuff they've got going on at NC
                 - ol > li > article > ( header > cite ) + article
+                - "You can use \**italics*\*, \*\***bold**\*\*, and links: [link says this](and goes to this URL). If you want you can get fancier with [Markdown](#todo-get-the-markdown-link)."
         </article>
         <aside>
             * Sidebar
@@ -66,6 +67,11 @@ The stylin' archive
     {{ endfor }}
 {{ endfor }}
 ```
+
+Actually this is probably much better
+
+http://stackoverflow.com/questions/19086284/jekyll-liquid-templating-how-to-group-blog-posts-by-year#20777475
+
 
 Things to use
 * figure.html from Alembic
