@@ -16,10 +16,10 @@
     </header>
     <main>
         <article>
-        * Post ()
+        * Post
             - Date
-            - Title
-            - Subtitle
+            - <header><h1>Title</h1>
+            - <p>Subtitle</p></header>
             - Prefatory material {{ post.prefatory | markdownify }}
             - Drop cap (see below)
             - Content
