@@ -75,6 +75,9 @@ http://stackoverflow.com/questions/19086284/jekyll-liquid-templating-how-to-grou
 
 Things to use
 * figure.html from Alembic
+   - With lightgallery by sachinchoolur
+   - adapt figure.html so that a "caption" variable is copied to both alt and figcaption
+   - And then set `lightGallery({ subHtmlSelectorRelative: true });`
 * Staticman code from MMistakes
 
 Things to do
